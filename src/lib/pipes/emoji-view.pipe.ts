@@ -1,9 +1,11 @@
+
 import { Pipe, PipeTransform, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { emojis } from '../model/emoji';
 import { EmojiService } from '../services/emoji.service';
 
+/** @dynamic */
 @Pipe({
   name: 'emojiView'
 })

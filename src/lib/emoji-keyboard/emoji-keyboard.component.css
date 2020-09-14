@@ -5,11 +5,13 @@
     display: flex;
     justify-content: space-around;
     background: #b0cffc;
+    margin: 0px;
 }
 .martTabs li{
     padding: 10px 10px 0px 10px;
     border-bottom:solid rgba(1,1,1,0);
     cursor: pointer;
+    list-style: none;
 }
 .martTabs li.active{
     border-bottom:solid;

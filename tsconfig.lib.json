@@ -29,5 +29,12 @@
   "exclude": [
     "src/test.ts",
     "**/*.spec.ts"
+  ],
+  "assets": [
+    { 
+      "glob": "**/*", 
+      "input": "../node_modules/ngx-emoji-keyboard/public", 
+      "output": "/public/" 
+    }
   ]
 }
