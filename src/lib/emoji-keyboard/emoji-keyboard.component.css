@@ -1,0 +1,45 @@
+:host{
+    background: #fff;
+}
+.martTabs{
+    display: flex;
+    justify-content: space-around;
+    background: #b0cffc;
+}
+.martTabs li{
+    padding: 10px 10px 0px 10px;
+    border-bottom:solid rgba(1,1,1,0);
+    cursor: pointer;
+}
+.martTabs li.active{
+    border-bottom:solid;
+}
+.martContent{
+    height: 250px;
+    overflow-y: scroll;
+}
+.emojiIcon{
+    padding:8px;
+    font-size:30px;
+    cursor: pointer;
+}
+.emojiIcon:hover{
+    background: #e6edf8;
+}
+.searchBar{
+    position: relative;
+    padding: 4px;
+    background: #d4e0f6;
+}
+.searchBarText{
+    width: 100%;
+    border: none;
+    padding: 6px;
+    border-radius: 4px;
+}
+.searchBarClear{
+    position: absolute;
+    right: 6px;
+    border: none;
+    top: 10px;
+}

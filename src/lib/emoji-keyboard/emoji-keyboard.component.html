@@ -1,0 +1,20 @@
+<div>
+  <ul class="martTabs">
+    <li *ngFor="let category of emojiCategories" [ngClass]="{'active':category?.id == selectedCategory?.id}"
+      (click)="selectCategory(category)">
+      <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path [attr.d]="emojiSvgs[category?.id]"></path>
+      </svg>
+    </li>
+  </ul>
+  <div class="searchBar">
+    <input class="searchBarText" [(ngModel)]="search" (keyup)="searchEmoji()" type="text" placeholder="Search emoji" />
+    <img class="searchBarClear" (click)="search=''" src="assets/images/ic_cross.svg" />
+  </div>
+  <div class="martContent">
+    <span *ngFor="let unified of selectedCategory?.emojis" class="emojiIcon"
+      [innerHTML]="unifiedToNative(unified)" (click)="getEmojiClicked(unified)">
+      {{unified}}
+    </span>
+  </div>
+</div>
