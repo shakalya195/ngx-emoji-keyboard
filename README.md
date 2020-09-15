@@ -11,7 +11,7 @@ search in emoji
 ![alt text](https://github.com/shakalya195/ngx-emoji-keyboard/blob/master/assets/images/ngx-emoji-keyboard-2.png?raw=true)
 
 
-##Component: app-emoji-keyboard
+## Component: app-emoji-keyboard
 ```
 <app-emoji-keyboard (selectEmojiEvent)="selectEmojiFunction($event)"></app-emoji-keyboard>
 ```
@@ -36,7 +36,7 @@ this event will be fired onClick on any emoji. the object is given below.
 }
 ```
 
-##Pipe: emojiView
+## Pipe: emojiView
 
 its also equipped with an angular pipe 'emojiView' to display emoji native (♥️) icons to html <img /> tag.
 
