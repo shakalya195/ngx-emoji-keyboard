@@ -6,7 +6,7 @@ ngx-emoji-keyboard is an library for emoji keyboard like https://web.whatsapp.co
 
 search in emoji
 
-![alt text](https://github.com/shakalya195/ngx-emoji-keyboard/blob/master/assets/images/ngx-emoji-keyboard-1.png.png?raw=true)
+![alt text](https://github.com/shakalya195/ngx-emoji-keyboard/blob/master/assets/images/ngx-emoji-keyboard-2.png?raw=true)
 
 
 Component: app-emoji-keyboard
