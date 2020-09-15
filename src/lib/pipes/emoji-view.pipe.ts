@@ -60,7 +60,7 @@ export class EmojiViewPipe implements PipeTransform {
                   span.style.height = '32px';
                   span.style.display = 'inline-block';
                   // span.style.backgroundImage = `url(/assets/images/emojis/${this.sheet}_32.png)`;
-                  span.style.backgroundImage = `url(https://unpkg.com/ngx-emoji-keyboard@1.0.1/assests/images/64.png)`;
+                  span.style.backgroundImage = `url(https://unpkg.com/ngx-emoji-keyboard@1.0.1/assets/images/64.png)`;
                   span.style.backgroundSize = `${100 * 52}%`;
                   const multiply = 100 / 51;
                   span.style.backgroundPosition = `${multiply * matchingData.sheet[0]}% ${multiply * matchingData.sheet[1]}%`;
