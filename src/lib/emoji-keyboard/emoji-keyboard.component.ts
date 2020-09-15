@@ -13,14 +13,12 @@ export class EmojiKeyboardComponent implements OnInit {
   @Input() tab:any='EMOJI';
   // @Output() selectEvent = new EventEmitter();
   @Output() selectEmojiEvent = new EventEmitter();
-  @Output() selectGifEvent = new EventEmitter();
-  @Output() selectStickerEvent = new EventEmitter();
 
   emojiCategories:any;
   emojiSvgs:any;
   selectedCategory:any;
   search:any="";
-  imageList:any;
+
   constructor(
     private emojiService:EmojiService,
     private http:HttpClient,
@@ -96,11 +94,6 @@ export class EmojiKeyboardComponent implements OnInit {
     }else{
       this.selectedCategory = this.emojiCategories[0];
     }
-  }
-
-  selectImageUrl(item){
-    console.log(item.fixed_height.url)
-    this.selectGifEvent.emit(item.fixed_height.url);
   }
 
 }
