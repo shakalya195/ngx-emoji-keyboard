@@ -2,6 +2,18 @@
 
 GITHUB: https://github.com/shakalya195/ngx-emoji-keyboard
 
+Import NgxEmojiModule in app.module.ts
+```
+import { NgxEmojiModule } from 'ngx-emoji-keyboard';
+
+@NgModule({
+    imports:[ 
+        ...
+        NgxEmojiModule
+    ]
+})
+```
+
 ngx-emoji-keyboard is an library for emoji keyboard like https://web.whatsapp.com
 
 ![alt text](https://github.com/shakalya195/ngx-emoji-keyboard/blob/master/assets/images/ngx-emoji-keyboard-1.png?raw=true)

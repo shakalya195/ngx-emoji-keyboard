@@ -9,7 +9,7 @@
   </ul>
   <div class="searchBar">
     <input class="searchBarText" [(ngModel)]="search" (keyup)="searchEmoji()" type="text" placeholder="Search emoji" />
-    <img class="searchBarClear" (click)="search=''" src="./src/assets/images/ic_cross.svg" />
+    <img class="searchBarClear" (click)="search=''" src="https://unpkg.com/ngx-emoji-keyboard@1.0.1/assets/images/ic_cross.svg" />
   </div>
   <div class="martContent">
     <span *ngFor="let unified of selectedCategory?.emojis"
