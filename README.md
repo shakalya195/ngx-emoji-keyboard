@@ -1,5 +1,7 @@
 # ngx-emoji-keyboard
 
+DEMO: https://stackblitz.com/edit/emoji-keyboard
+
 GITHUB: https://github.com/shakalya195/ngx-emoji-keyboard
 
 Import NgxEmojiModule in app.module.ts
